@@ -1,0 +1,12 @@
+.Statistics {
+  font-size: 20px;
+  text-shadow: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  width: 400px;
+  padding: 10px;
+}
+
+.Statistics__item {
+  margin-right: 10px;
+}

@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 500px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgb(152, 252, 230);
+  box-shadow: 0px 8px 8px rgba(6, 234, 250, 0.925);
+}
