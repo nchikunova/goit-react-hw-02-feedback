@@ -34,10 +34,11 @@ class App extends Component {
   render() {
     const buttonNames = Object.keys(this.state);
     const { good, neutral, bad } = this.state;
-    const total = Object.values(this.state).reduce((acc, i) => acc + i, 0);
+    const total = this.countTotalFeedback();
+    // const total = Object.values(this.state).reduce((acc, i) => acc + i, 0);
     const positive = this.countPositiveFeedbackPercentage(
       total,
-      this.state.good,
+      good,
     );
 
     return (
